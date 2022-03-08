@@ -14,4 +14,5 @@ def pegar_vendas():
     resposta = {'Total_vendas': total_vendas}
     return resposta
 
-app.run()
+if __name__ == "__main__":
+    app.run(debug=True)
